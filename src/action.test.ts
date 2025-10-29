@@ -30,7 +30,7 @@ describe("action output", () => {
     outputSpy.mockImplementation((name, value) => (outputs[name] = value));
 
     process.env.GITHUB_WORKSPACE = process.cwd() + "/test-fixtures";
-    inputs["working-directory"] = "example-app";
+    inputs["workdir"] = "example-app";
   });
 
   afterEach(() => {

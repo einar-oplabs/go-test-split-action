@@ -32,7 +32,7 @@ export function configure(
     // Env
     workingDirectory: path.join(
       process.env.GITHUB_WORKSPACE,
-      core.getInput("working-directory"),
+      core.getInput("workdir"),
     ),
     env,
   };

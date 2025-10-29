@@ -27,7 +27,7 @@ inputs:
   junit-summary:
     description: "Path to a JUnit summary XML file that can help optimize test slicing. See the JUnit example in the README."
     required: false
-  working-directory:
+  workdir:
     description: "The working directory in which to list the tests. Defaults to the GitHub workspace."
     required: false
 outputs:

@@ -6049,7 +6049,7 @@ function configure(whichGo, env) {
         // JUnit option
         junitSummary: core.getInput("junit-summary"),
         // Env
-        workingDirectory: external_path_.join(process.env.GITHUB_WORKSPACE, core.getInput("working-directory")),
+        workingDirectory: external_path_.join(process.env.GITHUB_WORKSPACE, core.getInput("workdir")),
         env,
     };
     // Input validation
